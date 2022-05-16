@@ -51,6 +51,7 @@ body{
     border-bottom: 2px solid #00a4ff;
 }
 .header .search{
+    position: relative;
     float: left;
     margin: 31px 31px 30px 0;
     width: 412px;
@@ -70,7 +71,9 @@ body{
 	color: #bfbfbf;
 }
 .header .search button{
-    float: right;
+    position: absolute;
+    right: 0;
+    top: 0;
     width: 49px;
 	height: 38px;
     background-image: url(./images/btn.png);
@@ -524,7 +527,6 @@ body{
     padding-left: 21px;
     width: 426px;
     height: 417px;
-    /* background-color: rebeccapurple; */
 }
 .bottom .boxs h1{
     margin-bottom: 25px;

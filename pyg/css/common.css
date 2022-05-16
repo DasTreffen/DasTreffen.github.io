@@ -1,0 +1,328 @@
+/* 公共样式 */
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../fonts/icomoon.eot?tomleg');
+    src:  url('../fonts/icomoon.eot?tomleg#iefix') format('embedded-opentype'),
+      url('../fonts/icomoon.ttf?tomleg') format('truetype'),
+      url('../fonts/icomoon.woff?tomleg') format('woff'),
+      url('../fonts/icomoon.svg?tomleg#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+/* 版心 */
+.bx{
+    margin: auto;
+    width: 1200px;
+}
+/* 快捷导航 */
+.navigation{
+    width: 100%;
+    height: 30px;
+    background-color: #f1f1f1;
+}
+.navigation .box{
+    position: relative;
+    height: 30px;
+}
+.navigation .box ul li{
+    float: left;
+}
+.navigation .box ul li a{
+    line-height: 30px;
+    text-align: center;
+    font-size: 12px;
+    color: #666666;
+}
+.navigation .box .ul1{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 209px;
+}
+.navigation .box .ul1 li{
+    margin-right: 13px;
+}
+.navigation .box .ul1 li h6{
+    line-height: 30px;
+    text-align: center;
+    font-size: 12px;
+    font-family: 400;
+    color: #666666;
+}
+.navigation .box .ul1 li:last-child a{
+    color: #c81623;
+}
+.navigation .box .ul1 li a:hover{
+    color: #c81623;
+}
+.navigation .box .ul2{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.navigation .box .ul2 li a{
+    padding: 0 16px 0 14px;
+    border-right: 1px solid #666666;
+}
+.navigation .box .ul2 li:last-child a{
+    padding-right: 0;
+    border-right: 0;
+}
+.navigation .box .ul2 .arrow-icon a::after{
+    content: '\e91e';
+    margin-left: 12px;
+    font-family: 'icomoon';
+}
+
+/* 导航栏 */
+.nav{
+    position: relative;
+    height: 105px;
+}
+.nav .logo{
+    position: absolute;
+    left: 3px;
+    top: 24px;
+}
+.nav .ss{
+    position: absolute;
+    left: 344px;
+    top: 25px;
+    width: 538px;
+    height: 36px;
+}
+.nav .ss input{
+    width: 458px;
+    height: 36px;
+    border: 2px solid #b1191a;
+    outline: none;
+}
+.nav .ss input::placeholder{
+    padding-left: 12px;
+    padding-top: 11px;
+    font-size: 14px;
+	color: #666666;
+}
+.nav .ss button{
+    position: absolute;
+    width: 80px;
+    height: 100%;
+    background-color: #b1191a;
+    border: 2px solid #b1191a;
+}
+.nav ul{
+    position: absolute;
+    left: 359px;
+    top: 69px;
+}
+.nav ul li{
+    float: left;
+    margin-right: 23px;
+    height: 16px;
+    line-height: 16px;
+}
+.nav ul li a{
+    font-size: 12px;
+	color: #666666;
+}
+.nav .mycart{
+    position: absolute;
+    right: 63px;
+    top: 25px;
+}
+.nav ul li:first-child a{
+    color: #c81623;
+}
+.nav ul li a:hover{
+    color: #c81623;
+}
+.nav .mycart a{
+    display: block;
+    position: relative;
+    width: 140px;
+	height: 36px;
+	background-color: #f7f7f7;
+    border: 1px solid #dfdfdf;
+}
+.nav .mycart a .car{
+    position: absolute;
+    left: 19px;
+    top: 12px;
+    margin-right: 7px;
+    width: 18px;
+    height: 13px;
+    background-image: url(../images/icons.png);
+    background-position: -415px -90px;
+}
+.nav .mycart a button{
+    margin-left: 44px;
+    margin-top: 12px;
+    width: 60px;
+	height: 12px;
+	background-color: #f7f7f7;
+    border: 0;
+    line-height: 12px;
+    font-size: 12px;
+	color: #666666;
+}
+.nav .mycart a .num{
+    position: absolute;
+    left: 105px;
+    top: -4px;
+    width: 16px;
+	height: 14px;
+	background-color: #e60012;
+    border-radius: 4px 4px 4px 0;
+    line-height: 14px;
+    text-align: center;
+    font-size: 12px;
+	color: #fefefe;
+}
+.nav .mycart a button::after{
+    position: absolute;
+    right: 15px;
+    top: 12px;
+    content: '>';
+}
+
+/* 底部 */
+.foot{
+    margin-top: 31px;
+    height: 417px;
+	background-color: #f5f5f5;
+}
+.foot .db{
+    height: 110px;
+    border-bottom: 1px solid #ccc;
+}
+.foot .db ul li{
+    position: relative;
+    float: left;
+    margin-top: 30px;
+    padding-left: 35px;
+    width: 240px;
+    height: 50px;
+}
+.foot .db ul li h5{
+    display: inline-block;
+    margin-right: 7px;
+    width: 50px;
+    height: 50px;
+    background-image: url(../images/icons.png);
+    background-position: -253px -3px;
+}
+.foot .db ul li .hz{
+    position: absolute;
+    left: 90px;
+    top: 7px;
+}
+.foot .db ul li .hz h4{
+    margin-bottom: 9px;
+    width: 56px;
+    height: 14px;
+    font-size: 14px;
+    line-height: 14px;
+	color: #333333;
+}
+.foot .db ul li .hz p{
+    width: 108px;
+	height: 12px;
+	font-size: 12px;
+	line-height: 12px;
+	color: #666666;
+}
+.foot .zb{
+    height: 188px;
+    border-bottom: 1px solid #ccc;
+}
+.foot .zb .u1 ul{
+    margin-top: 21px;
+    height: 16px;
+}
+.foot .zb .u1 li{
+    float: left;
+    width: 200px;
+    padding-left: 50px;
+    line-height: 16px;
+    color: #333333;
+}
+.foot .zb .u2{
+    margin-top: 13px;
+    height: 120px;
+}
+.foot .zb .u2 ul{
+    float: left;
+    width: 200px;
+    height: 120px;
+}
+.foot .zb .u2 ul li{
+    padding-left: 50px;
+    width: 200px;
+    height: 20px;
+}
+.foot .zb .u2 ul li a{
+    width: 200px;
+    height: 20px;
+    font-size: 12px;
+    line-height: 20px;
+	color: #666666;
+}
+.foot .zb .u2 ul li a:hover{
+    color: #c81623;
+}
+.foot .zb .u2 .u16 li{
+    padding-left: 37px;
+    height: 120px;
+}
+.foot .zb .u2 .u16 li h6{
+    margin-top: 8px;
+    margin-left: 10px;
+    width: 72px;
+    height: 12px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 12px;
+    color: #333333;
+}
+.foot .bm{
+    margin-top: 20px;
+    width: 972px;
+    height: 60px;
+    text-align: center;
+}
+.foot .bm ul{
+    width: 972px;
+    height: 12px;
+}
+.foot .bm ul li{
+    float: left;
+    height: 12px;
+    padding-left: 13px;
+    padding-right: 16px;
+    border-right: 1px solid #666666;
+    line-height: 12px;
+}
+.foot .bm ul li:first-child{
+    padding-left: 0;
+}
+.foot .bm ul li:last-child{
+    padding-right: 0;
+    border-right: 0;
+}
+.foot .bm ul li a{
+    font-size: 12px;
+    line-height: 12px;
+	color: #666666;
+}
+.foot .bm ul li a:hover{
+	color: #c81623;
+}
+.foot .bm h6{
+    margin-top: 17px;
+    height: 12px;
+    line-height: 12px;
+    font-size: 12px;
+    font-weight: 400;
+    color: #666666;
+}

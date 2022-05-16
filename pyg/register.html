@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人注册</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/register.css">
+</head>
+<body>
+    <div class="hear bx">
+        <img src="./images/logo.png" alt="logo">
+    </div>
+    <div class="xx bx"></div>
+    <div class="zj bx">
+        <div class="sm">
+            <h3>注册新用户</h3>
+            <h6>我有账号，去<a href="#">登陆</a></h6>
+        </div>
+        <form action="">
+            <ul class="bx">
+                <li>
+                    <label for="sjh" class="phone">手机号&nbsp;:</label>
+                    <input type="text" name="phone" placeholder="请输入手机号">
+                    <span><img src="./images/error.png" alt="error">手机号码格式不正确，请从新输入</span>
+                </li>
+                <li>
+                    <label for="yzm" class="yzm">短信验证码&nbsp;:</label>
+                    <input type="text" name="phone" placeholder="请输入短信验证码">
+                </li>
+                <li>
+                    <label for="mm" class="mm">登陆密码&nbsp;:</label>
+                    <input type="password" name="password" placeholder="请输入登陆密码">
+                    <span><img src="./images/error.png" alt="error">密码不少于6位数，请从新输入</span>
+                </li>
+                <li><h6>安全程度</h6><div class="red">弱</div><div class="green">中</div><div class="yellow">强</div></li>
+                <li>
+                    <label for="qrmm" class="qrmm">确认密码&nbsp;:</label>
+                    <input type="password" name="qrpassword" placeholder="请再一次输入密码">
+                    <span><img src="./images/error.png" alt="error">密码不一致，请从新输入</span>
+                </li>
+                <li><input type="checkbox" name="xy" placeholder="1"><h6 class="xy">同意协议并注册</h6></li>
+            </ul>
+        </form>
+    </div>
+</body>
+</html>

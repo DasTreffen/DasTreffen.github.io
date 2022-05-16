@@ -1,0 +1,137 @@
+.bx{
+    margin: auto;
+    width: 1200px;
+}
+.hear{
+    margin-top: 16px;
+    margin-bottom: 5px;
+    height: 61px;
+}
+.xx{
+    margin-bottom: 21px;
+	height: 2px;
+	background-color: #b1191a;
+}
+.zj{
+    height: 520px;
+    background-color: #ffffff;
+    border: 1px solid #dfdfdf;
+}
+.zj .sm{
+    position: relative;
+    height: 41px;
+    background-color: #ececec;
+}
+.zj .sm h3{
+    display: inline-block;
+    margin-top: 11px;
+    margin-left: 10px;
+    width: 90px;
+	height: 18px;
+	font-size: 18px;
+	font-weight: 400;
+    line-height: 18px;
+	color: #333333;
+}
+.zj .sm h6{
+    position: absolute;
+    right: 10px;
+    top: 13px;
+    height: 14px;
+    font-size: 14px;
+	font-weight: 400;
+    line-height: 14px;
+	color: #333333;
+}
+.zj .sm h6 a{
+    font-size: 14px;
+	font-weight: 400;
+	color: #c81623;
+}
+.zj form ul{
+    margin-top: 54px;
+    width: 600px;
+    height: 368px;
+    /* background-color: rebeccapurple; */
+}
+.zj form ul li label{
+    display: inline-block;
+    width: 91px;
+    height: 12px;
+    line-height: 12px;
+    font-size: 12px;
+    color: #4d4d4d;
+}
+.zj form ul li input{
+    margin-bottom: 20px;
+    width: 240px;
+	height: 36px;
+	background-color: #ffffff;
+	border: 1px solid #999999;
+    outline: none;
+}
+.zj form ul li input[name='password']{
+    margin-bottom: 10px;
+}
+.zj form ul li span{
+    display: inline-block;
+    height: 36px;
+    font-size: 12px;
+    line-height: 36px;
+	color: #df3033;
+}
+.zj form ul li span img{
+    margin-right: 4px;
+}
+
+.zj form ul li .phone{
+    padding-left: 41px;
+}
+.zj form ul li .yzm{
+    padding-left: 13px;
+}
+.zj form ul li .mm{
+    padding-left: 27px;
+}
+.zj form ul li .qrmm{
+    padding-left: 27px;
+}
+.zj form ul li h6{
+    display: inline-block;
+    margin-left: 178px;
+    margin-bottom: 20px;
+    height: 13px;
+    font-size: 12px;
+	font-weight: 400;
+	line-height: 13px;
+	color: #b3b3b3;
+}
+.zj form ul li .red,.green,.yellow{
+    display: inline-block;
+    margin-right: 1px;
+    width: 34px;
+	height: 13px;
+    text-align: center;
+    line-height: 13px;
+    font-size: 12px;
+	color: #ffffff;
+    background-color: rebeccapurple;
+}
+.zj form ul li .red{
+    margin-left: 6px;
+    background-color: #de1111;
+}
+.zj form ul li .green{
+    background-color: #40b83f;
+}
+.zj form ul li .yellow{
+    background-color: #f79100;
+}
+.zj form ul li input[type="checkbox"]{
+    margin-left: 97px;
+    margin-right: 14px;
+    width: 15px;
+	height: 15px;
+	background-color: #f2f2f2;
+	border: 1px solid #999999;
+}

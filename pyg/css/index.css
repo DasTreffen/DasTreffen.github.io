@@ -1,0 +1,342 @@
+.hear{
+    position: relative;
+    height: 45px;
+}
+.hear .goods{
+    width: 209px;
+	height: 100%;
+	background-color: #b1191a;
+    line-height: 45px;
+    text-align: center;
+    font-size: 16px;
+    color: #ffffff;
+}
+.hear ul{
+    position: absolute;
+    right: 287px;
+    top: 0;
+    height: 45px;
+}
+.hear ul li{
+    float: left;
+    margin-left: 48px;
+    margin-top: 15px;
+}
+.hear ul li a{
+    font-size: 16px;
+	color: #333333;
+}
+.hr{
+    width: 100%;
+	height: 2px;
+	background-color: #b1191a;
+}
+.content{
+    position: relative;
+    height: 466px;
+}
+.content .classification{
+    width: 209px;
+	height: 465px;
+	background-color: #c81623;
+}
+.content .classification ul li{
+    width: 209px;
+    height: 31px;
+}
+.content .classification ul li a{
+    display: block;
+    position: relative;
+    padding-left: 10px;
+    font-size: 14px;
+	line-height: 31px;
+	color: #ffffff;
+}
+.content .classification ul li:hover a{
+    background-color: #fff;
+	color: #c81623;
+}
+.content .classification ul li a::after{
+    position: absolute;
+    right: 11px;
+    content: '>';
+}
+.content .picture{
+    position: absolute;
+    left: 219px;
+    top: 10px;
+    width: 721px;
+	height: 455px;
+}
+.content .gg{
+    position: absolute;
+    right: 0;
+    top: 11px;
+    width: 250px;
+	height: 454px;
+}
+.content .gg .top{
+    width: 250px;
+    height: 164px;
+    border: 1px solid #e4e4e4;
+}
+.content .gg .top h4{
+    position: relative;
+    padding-left: 16px;
+    height: 34px;
+    line-height: 34px;
+    border-bottom: 1px dotted #e4e4e4;
+    color: #666;
+}
+.content .gg .top h4 a{
+    position: absolute;
+    left: 196px;
+    top: 0;
+    font-size: 12px;
+    color: #666;
+}
+.content .gg .top h4 a::after{
+    position: absolute;
+    right: -16px;
+    top: 0;
+    content: '>';
+}
+.content .gg .top ul li{
+    padding-left: 16px;
+    height: 26px;
+    /* 将文本设置为一行显示 */
+    white-space: nowrap;
+    /* 将溢出的文本进行隐藏 */
+    overflow: hidden;
+    /* 将溢出的文本用省略号代替 */
+    text-overflow: ellipsis;
+}
+.content .gg .top ul li a{
+    font-size: 12px;
+    color: #666;
+}
+.content .gg .bottom{
+    margin-bottom: 5px;
+    width: 250px;
+    height: 210px;
+    border: 1px solid #e4e4e4;
+}
+.content .gg .bottom .bbb{
+    width: 250px;
+    height: 210px;
+}
+.content .gg .bottom ul li{
+    float: left;
+    padding-top: 14px;
+    width: 62px;
+    height: 70px;
+    border-right: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+    text-align: center;
+    font-size: 12px;
+    color: #666;
+}
+.content .gg .bottom ul li span{
+    display: block;
+    margin: auto;
+    margin-bottom: 6px;
+    width: 24px;
+    height: 27px;
+    background-image: url(../images/icons.png);
+    background-position: -17px -15px;
+}
+/* 今日推荐 */
+.day{
+    margin-top: 11px;
+    height: 163px;
+    background-color: #ebebeb;
+}
+.day .jr{
+    float: left;
+    width: 205px;
+	height: 163px;
+	background-color: #5c5251;
+    text-align: center;
+    line-height: 163px;
+}
+.day ul li{
+    position: relative;
+    float: left;
+}
+.day ul li:nth-child(-n+3)::after{
+    position: absolute;
+    right: 0;
+    top: 10px;
+    content: '';
+    width: 1px;
+	height: 143px;
+	background-color: #dddddd;
+}
+/* 家用电器 */
+.jydq{
+    position: relative;
+    margin-top: 29px;
+    height: 390px;
+}
+.jydq h6{
+    display: inline-block;
+    margin-bottom: 9px;
+    width: 72px;
+    height: 18px;
+    line-height: 18px;
+    font-size: 18px;
+    color: #c81623;
+}
+.jydq .uu{
+    position: absolute;
+    right: 0;
+    top: 7px;
+    height: 12px;
+}
+.jydq .uu li{
+    float: left;
+    padding-left: 14px;
+    padding-right: 16px;
+    height: 12px;
+    line-height: 12px;
+    border-right: 1px solid #666666;
+}
+.jydq .uu li:last-child{
+    border-right: 0;
+}
+.jydq .uu li a{
+    display: block;
+    height: 12px;
+    font-size: 12px;
+    color: #666666;
+}
+.jydq .uu li:first-child a{
+    color: #c81623;
+}
+.jydq .uu li:hover a{
+    color: #c81623;
+}
+.jydq .a{
+    position: relative;
+    height: 360px;
+}
+.jydq .a .a1{
+    position: absolute;
+    width: 209px;
+	height: 360px;
+}
+.jydq .a .a1 ul{
+    height: 99px;
+}
+.jydq .a .a1 ul li{
+    float: left;
+    margin-left: 13px;
+    width: 86px;
+    height: 33px;
+    border-bottom: 1px solid #ededed;
+    text-align: center;
+    line-height: 33px;
+    
+}
+.jydq .a .a1 ul li a{
+    display: block;
+    width: 86px;
+    height: 33px;
+    font-size: 12px;
+	color: #666666;
+}
+.jydq .a .i1 a{
+    display: block;
+    width: 209px;
+    height: 261px;
+    text-align: center;
+}
+.jydq .a .i1 a img{
+    margin-top: 26px;
+}
+.jydq .a .a2{
+    position: absolute;
+    left: 209px;
+    top: 0;
+}
+.jydq .a .a2 .a22{
+    position: relative;
+}
+.jydq .a .a2 .a22 a{
+    display: block;
+    width: 329px;
+	height: 360px;
+}
+.jydq .a .a2 .a22 ul{
+    position: absolute;
+    left: 142px;
+    bottom: 16px;
+}
+.jydq .a .a2 .a22 ul li{
+    float: left;
+    margin-left: 7px;
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    background-color: #3e3e3e;
+}
+.jydq .a .a2 .a22 ul li:first-child{
+    margin-left: 0;
+    margin-right: 1px;
+    background-color: #ffffff;
+}
+.jydq .a .a3{
+    position: absolute;
+    left: 539px;
+    top: 0;
+    width: 219px;
+    height: 360px;
+}
+.jydq .a .a3 .a31,.a32{
+    width: 219px;
+    height: 180px;
+}
+.jydq .a .a3 .aa{
+    width: 219px;
+	height: 1px;
+	background-color: #ededed;
+}
+.jydq .a .aa1{
+    position: absolute;
+    left: 759px;
+    top: 0;
+    width: 1px;
+	height: 360px;
+	background-color: #ededed;
+}
+.jydq .a .a4{
+    position: absolute;
+    left: 760px;
+    top: 0;
+    width: 220px;
+    height: 360px;
+}
+.jydq .a .aa2{
+    position: absolute;
+    left: 980px;
+    top: 0;
+    width: 1px;
+	height: 360px;
+	background-color: #ededed;
+}
+.jydq .a .a5{
+    position: absolute;
+    left: 981px;
+    top: 0;
+    width: 220px;
+    height: 360px;
+}
+.jydq .a .a5 .a31,.a32{
+    width: 219px;
+    height: 180px;
+}
+.jydq .a .a5 .aa{
+    width: 219px;
+	height: 1px;
+	background-color: #ededed;
+}

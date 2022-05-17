@@ -520,19 +520,19 @@ body{
     height: 417px;
     background-color: #ffffff;
 }
-.bottom .boxs{
+.bottom .bx .boxs{
     float: left;
     padding-top: 33px;
     padding-left: 21px;
     width: 426px;
     height: 417px;
 }
-.bottom .boxs h1{
+.bottom .bx .boxs h1{
     margin-bottom: 25px;
     width: 195px;
 	height: 41px;
 }
-.bottom .boxs h6{
+.bottom .bx .boxs h6{
     margin-bottom: 15px;
     width: 426px;
 	height: 30px;
@@ -541,7 +541,7 @@ body{
 	line-height: 18px;
 	color: #666666;
 }
-.bottom .boxs button{
+.bottom .bx .boxs button{
     width: 120px;
 	height: 36px;
 	border: 1px solid #00a4ff;

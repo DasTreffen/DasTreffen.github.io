@@ -7,6 +7,7 @@ body{
 }
 a{
     text-decoration: none;
+    background-color: transparent;
 }
 // 当屏幕大于750的时候，字体的大小不再发生变化
 @media screen and (min-width: 750px) {
@@ -59,4 +60,30 @@ a{
 }
 .go{
     margin: 0 .3733rem;
+}
+.content{
+    margin-top: .2667rem;
+    padding: 1.0667rem .6133rem 1.0133rem .6133rem;
+    background-color: #fff;
+    .con-hd{
+        display: flex;
+        justify-content: space-between;
+        height: 1.0133rem;
+        line-height: 1.0133rem;
+        h4{
+            margin: 0;
+            font-size: .7467rem;
+            color: #333333;
+            .icons{
+                display: inline-block;
+                width: 1.0133rem;
+                height: 1.0133rem;
+                vertical-align: middle;
+            }
+        }
+        .more{
+            font-size: .5867rem;
+            color: #999999;
+        }
+    }
 }

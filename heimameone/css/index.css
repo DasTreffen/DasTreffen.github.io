@@ -7,7 +7,7 @@ body {
 }
 a {
   text-decoration: none;
-  background-color: transparent;
+  outline: none;
 }
 @media screen and (min-width: 750px) {
   html {
@@ -76,7 +76,7 @@ a {
   display: inline-block;
   width: 1.0133rem;
   height: 1.0133rem;
-  vertical-align: middle;
+  vertical-align: bottom;
 }
 .content .con-hd .more {
   font-size: 0.5867rem;

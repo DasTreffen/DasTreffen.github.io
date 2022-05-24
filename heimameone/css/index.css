@@ -90,11 +90,14 @@ a:focus {
   font-size: 0.5867rem;
   color: #999999;
 }
-.content .lunbotu .swiper-container {
-  width: 100%;
+.content .jyzdlunbotu {
+  position: relative;
+}
+.content .jyzdlunbotu .swiper-container {
+  width: 14.4rem;
   height: 100%;
 }
-.content .lunbotu .swiper-slide {
+.content .jyzdlunbotu .swiper-slide {
   margin-top: 0.9867rem;
   text-align: center;
   font-size: 0.48rem;
@@ -115,16 +118,17 @@ a:focus {
   align-items: center;
   transition: 300ms;
   transform: scale(0.8);
+  opacity: 0.5;
 }
-.content .lunbotu .swiper-slide a {
+.content .jyzdlunbotu .swiper-slide a {
   width: 9.3067rem;
   height: 10.2133rem;
 }
-.content .lunbotu .swiper-slide a img {
+.content .jyzdlunbotu .swiper-slide a img {
   width: 100%;
   height: 100%;
 }
-.content .lunbotu .swiper-slide p {
+.content .jyzdlunbotu .swiper-slide p {
   margin-top: 0.4rem;
   width: 6.8rem;
   height: 0.6667rem;
@@ -132,8 +136,77 @@ a:focus {
   line-height: 0.6667rem;
   color: #333333;
 }
-.content .lunbotu .swiper-slide-active,
-.content .lunbotu .swiper-slide-duplicate-active {
+.content .jyzdlunbotu .swiper-slide-active,
+.content .jyzdlunbotu .swiper-slide-duplicate-active {
   transform: scale(1);
   z-index: 1;
+  opacity: 1;
+}
+.xxcdlunbotu {
+  margin-top: 0.2667rem;
+}
+.xxcdlunbotu .swiper {
+  padding: 0.2667rem;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.xxcdlunbotu .swiper-slide {
+  width: 7.33rem;
+  height: 8.5333rem;
+  background-color: #fff;
+  border-radius: 0.0267rem;
+  box-shadow: 0 0 0.2667rem rgba(0, 0, 0, 0.1);
+}
+.xxcdlunbotu .swiper-slide a {
+  width: 100%;
+  height: 100%;
+  color: #1C1C1C;
+}
+.xxcdlunbotu .swiper-slide a h5 {
+  margin: 0.2667rem 0 0.2667rem 0.1333rem;
+  font-size: 0.64rem;
+  font-weight: 400;
+}
+.xxcdlunbotu .swiper-slide a p {
+  margin-top: 0.5333rem;
+  margin-left: 0.1333rem;
+  font-size: 0.5333rem;
+  font-weight: 400;
+  color: #999999;
+}
+.xxcdlunbotu .swiper-slide a span {
+  color: #FF4400;
+}
+.footer {
+  height: 3.0133rem;
+  background-color: #fff;
+  border-top: 1px solid #eaeaea;
+}
+.footer ul {
+  margin: 0;
+  display: flex;
+  height: 100%;
+}
+.footer ul li {
+  flex: 1;
+}
+.footer ul li a {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.5867rem;
+  color: #666666;
+}
+.footer ul li a img {
+  margin-top: 0.5067rem;
+  margin-bottom: 0.2933rem;
+  width: 1.04rem;
+  height: 1.0933rem;
+}
+.footer ul li:first-child a {
+  color: #2CCAC7;
 }

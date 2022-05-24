@@ -90,9 +90,11 @@ a,a:hover,a:active,a:visited,a:link,a:focus{
             color: #999999;
         }
     }
-    .lunbotu{
+    .jyzdlunbotu{
+        position: relative;
         .swiper-container {
-            width: 100%;
+            // width: 100%;
+            width: 14.4rem;
             height: 100%;
           }
           .swiper-slide {
@@ -117,7 +119,9 @@ a,a:hover,a:active,a:visited,a:link,a:focus{
             -webkit-align-items: center;
             align-items: center;
             transition: 300ms;
+            // 两边图片的大小
             transform: scale(0.8);
+            opacity: 0.5;
             a{
                 // margin: 0 1.2267rem;
                 width: 9.3067rem;
@@ -139,6 +143,77 @@ a,a:hover,a:active,a:visited,a:link,a:focus{
           .swiper-slide-active,.swiper-slide-duplicate-active{
             transform: scale(1);
             z-index: 1;
+            opacity: 1;
           }
+    }
+}
+.xxcdlunbotu{
+    margin-top: .2667rem;
+    .swiper {
+        padding: .2667rem;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+    }
+    .swiper-slide {
+        width: 7.33rem;
+        height: 8.5333rem;
+        background-color: #fff;
+        border-radius: .0267rem;
+        box-shadow: 0 0 .2667rem rgba(0,0,0,0.1);
+        a{
+            width: 100%;
+            height: 100%;
+            color: #1C1C1C;
+            h5{
+                margin: .2667rem 0 .2667rem .1333rem;
+                font-size: .64rem;
+                font-weight: 400;
+            }
+            p{
+                margin-top: .5333rem;
+                margin-left: .1333rem;
+                font-size: .5333rem;
+                font-weight: 400;
+                color: #999999;
+            }
+            span{
+                color: #FF4400;
+            }
+        }
+    }
+}
+.footer{
+    height: 3.0133rem;
+    background-color: #fff;
+    border-top: 1px solid #eaeaea;
+    ul{
+        margin: 0;
+        display: flex;
+        height: 100%;
+        li{
+            flex: 1;
+            a{
+                display: flex;
+                width: 100%;
+                height: 100%;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                font-size: .5867rem;
+                color: #666666;
+                img{
+                    margin-top: .5067rem;
+                    margin-bottom: .2933rem;
+                    width: 1.04rem;
+                    height: 1.0933rem;
+                    
+                }
+            }
+            &:first-child a{
+                color: #2CCAC7;
+                
+            }
+        }
     }
 }

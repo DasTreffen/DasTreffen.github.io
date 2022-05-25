@@ -2,7 +2,6 @@ body {
   margin: 0 auto;
   max-width: 750px;
   min-width: 320px;
-  height: 1200px;
   background-color: #F2F4F7;
 }
 a,
@@ -142,77 +141,70 @@ a:focus {
   z-index: 1;
   opacity: 1;
 }
-.xxcdlunbotu {
+.learn {
+  margin-bottom: 2.7333rem;
+}
+.learn .xxcdlunbotu {
   margin-top: 0.2667rem;
 }
-.xxcdlunbotu .swiper {
+.learn .xxcdlunbotu .swiper {
   padding: 0.2667rem;
   width: 100%;
   height: 100%;
   overflow: hidden;
 }
-.xxcdlunbotu .swiper-slide {
+.learn .xxcdlunbotu .swiper-slide {
   width: 7.33rem;
   height: 8.5333rem;
   background-color: #fff;
   border-radius: 0.0267rem;
   box-shadow: 0 0 0.2667rem rgba(0, 0, 0, 0.1);
 }
-.xxcdlunbotu .swiper-slide a {
+.learn .xxcdlunbotu .swiper-slide a {
   width: 100%;
   height: 100%;
   color: #1C1C1C;
 }
-.xxcdlunbotu .swiper-slide a h5 {
+.learn .xxcdlunbotu .swiper-slide a h5 {
   margin: 0.2667rem 0 0.2667rem 0.1333rem;
   font-size: 0.64rem;
   font-weight: 400;
 }
-.xxcdlunbotu .swiper-slide a p {
+.learn .xxcdlunbotu .swiper-slide a p {
   margin-top: 0.5333rem;
   margin-left: 0.1333rem;
   font-size: 0.5333rem;
   font-weight: 400;
   color: #999999;
 }
-.xxcdlunbotu .swiper-slide a span {
+.learn .xxcdlunbotu .swiper-slide a span {
   color: #FF4400;
 }
 .footer {
+  display: flex;
   position: fixed;
-  left: 50%;
+  left: 0;
   bottom: 0;
-  width: 20rem;
-  height: 3.0133rem;
-  transform: translate(-50%);
+  width: 100%;
+  height: 2.9333rem;
   background-color: #fff;
   border-top: 1px solid #eaeaea;
   z-index: 999;
 }
-.footer ul {
-  margin: 0;
+.footer a {
   display: flex;
-  height: 100%;
-}
-.footer ul li {
   flex: 1;
-}
-.footer ul li a {
-  display: flex;
-  width: 100%;
-  height: 100%;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   font-size: 0.5867rem;
   color: #666666;
 }
-.footer ul li a img {
+.footer a img {
   margin-top: 0.5067rem;
   margin-bottom: 0.2933rem;
   width: 1.04rem;
   height: 1.0933rem;
 }
-.footer ul li:first-child a {
+.footer:first-child a {
   color: #2CCAC7;
 }

@@ -206,6 +206,6 @@ a:focus {
   width: 1.04rem;
   height: 1.0933rem;
 }
-.footer:first-child a {
+.footer a:nth-child(1) {
   color: #2CCAC7;
 }

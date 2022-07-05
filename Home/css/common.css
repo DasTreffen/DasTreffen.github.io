@@ -1,0 +1,36 @@
+/* 清除内外边距 盒子模型 */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+body{
+    font-family: PingFang SC,Helvetica Neue,Helvetica,Arial,Hiragino Sans GB,Microsoft Yahei,\\5FAE\8F6F\96C5\9ED1,STHeiti,\\534E\6587\7EC6\9ED1,sans-serif;
+    background-color: rgba(204, 204, 204, 0.2);
+    color: #666666;
+    font-size: 14px;
+}
+/* 段落标签不加粗 */
+h1, h2, h3, h4, h5, h6 {
+    /* 字体大小相当于body的百分比 */
+    font-size: 100%;
+    font-weight: 400;
+}
+/* 清除列表前的标记 */
+ul{
+    list-style: none;
+}
+/* 清除a标签的下划线 */
+a{
+    text-decoration: none;
+    color: #666;
+}
+/* 版心 */
+.w{
+    width: 1220px;
+    margin: auto;
+}
+
+
+
